@@ -8,8 +8,6 @@ describe('Component CurrencyForm', () => {
   });
 
   it('should run action callback with proper data on form submit', () => {
-    
- 
 
     const testCases = [
         { amount: '100', from: 'PLN', to: 'USD' },
